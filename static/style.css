@@ -1,0 +1,93 @@
+:root {
+	--accent: #e63c3c;
+}
+
+html {
+	font-family: monospace;
+	text-align: center;
+	max-width: 70ch;
+	padding: 3em 1em;
+	margin: auto;
+	line-height: 1.75;
+	font-size: 1.2rem;
+	font-weight: 400;
+	color: #fff;
+	background-color: #000;
+}
+
+body {
+	text-rendering: optimizeLegibility;
+}
+
+header {
+	background-image: url(/COMfiltrat0r/static/comfiltrat0r.gif);
+	background-size: 90%;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 20rem;
+}
+
+header h1 {
+	padding-top: 8rem;
+	margin-bottom: -1rem;
+}
+
+header p {
+	margin: 0;
+}
+
+a {
+	color: var(--accent);
+	text-decoration: none;
+}
+
+a:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.field {
+	text-align: center;
+	border: 1px solid var(--accent);
+	border-radius: 5px;
+	padding: 2rem;
+	margin: 5px;
+}
+
+#fields {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	margin: 3rem auto 1rem auto;
+}
+
+#fields-split {
+	display: flex;
+	flex-direction: row;
+}
+
+#connect-button {
+	width: auto;
+}
+
+#connect-button:hover {
+	cursor: pointer;
+}
+
+#drop-field {
+	color: gray;
+	width: 80%;
+}
+
+#drop-field:hover {
+	cursor: pointer;
+}
+
+#slider-field {
+	color: gray;
+	padding: 1rem 2rem 1rem 2rem;
+}
+
+#slider {
+	width: 100%;
+}

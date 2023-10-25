@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>COMfiltrat0r - Data Exfiltration via WebSerial</title>
+	<meta name="author" content="info@cyllective.com">
+	<meta name="description" content="Data Exfiltration via WebSerial">
+	<meta name="keywords" content="data exfiltration,webserial,dlp,data loss prevention,cyber,security,cyllective">
+	<meta property="og:title" content="COMfiltrat0r">
+	<meta property="og:description" content="Data Exfiltration via WebSerial">
+	<meta property="og:type" content="website">
+	<meta name="og:url" content="https://cyllective.github.io/COMfiltrat0r">
+	<meta name="og:image" content="https://cyllective.github.io/COMfiltrat0r/static/comfiltrat0r.png">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@cyllective">
+	<meta name="twitter:title" content="COMfiltrat0r">
+	<meta name="twitter:description" content="Data Exfiltration via WebSerial">
+	<meta name="twitter:image" content="https://cyllective.github.io/COMfiltrat0r/static/comfiltrat0r.png">
+	<link rel="canonical" href="https://cyllective.github.io/COMfiltrat0r">
+	<link rel="stylesheet" href="/COMfiltrat0r/static/style.css">
+</head>
+
+<body>
+	<header>
+		<a href="/">
+			<h1>COMfiltrat0r</h1>
+		</a>
+		<p>
+			by <a href="https://cyllective.com?comf=1" target="_blank">cyllective</a>
+		</p>
+	</header>
+	<article id="article">
+		<div id="fields">
+			<div id="fields-split">
+				<div id="connect-button" class="field">Connect</div>
+				<div id="drop-field" class="field">Drag & Drop File Here</div>
+			</div>
+			<div id="slider-field" class="field">
+				<span style="white-space: pre">Chunk Size (<span id="slider-value">10000</span>)</span>
+				<input type="range" id="slider" min="10" max="10000" value="10000" step="10">
+			</div>
+		</div>
+	</article>
+
+	<script src="/COMfiltrat0r/static/webserial.js"></script>
+	<script src="/COMfiltrat0r/static/main.js"></script>
+</body>
+
+</html>
